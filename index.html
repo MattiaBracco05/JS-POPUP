@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracco Mattia JS 1</title>
+
+    <!-- Vecchio metodo: "function saluto() {}" -->
+    <!-- Nuovo metodo: metodo freccia "const saluto =()=>"" -->
+    <script>
+        function saluto() {
+            let nome=document.querySelector("#mioNome").value
+            alert("BENVENUTO " + nome +" !")
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="mioNome">
+    <input onclick="saluto()" type="button">
+</body>
+</html>
